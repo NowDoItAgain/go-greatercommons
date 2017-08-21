@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	switch "hello" {
-	case "not me":
+	switch {
+	case false:
 		fmt.Println("not going to print")
-	case "hello":
+	case true:
 		fmt.Println("Hi, I will print")
 
 	}
